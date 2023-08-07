@@ -5,8 +5,7 @@
   <link
     href="https: //fonts.googleapis.com/css2?family= Poppins :ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700 & display=swap"
     rel="stylesheet">
-  <!-- <link rel="stylesheet" href="styles/light.css" id="theme"> -->
-  <link rel="stylesheet" href="styles/dark.css" id="theme">
+  <link rel="stylesheet" href="styles/light.css" id="light">
   <meta charset="UTF-8">
   <title>Case</title>
 </head>
@@ -32,7 +31,7 @@
                 <div class="navigation__line"></div>
               </div>
             </button>
-            <button type="buttons" class="navigation__theme"><img src='data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAyMDAxMDkwNC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCJbXT48c3ZnIHZlcnNpb249IjEuMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTkiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAxMDQ5LjAwMDAwMCAxMjgwLjAwMDAwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+PG1ldGFkYXRhPkNyZWF0ZWQgYnkgcG90cmFjZSAxLjE1LCB3cml0dGVuIGJ5IFBldGVyIFNlbGluZ2VyIDIwMDEtMjAxNzwvbWV0YWRhdGE+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsMTI4MC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiIGZpbGw9IiMwMDAwMDAiIHN0cm9rZT0ibm9uZSI+PHBhdGggZD0iTTYwMTUgMTI3ODkgYy03NDAgLTQ2IC0xNDY5IC0yMTkgLTIxNDUgLTUwOSAtMjg0IC0xMjEgLTgxNyAtNDA3IC05ODUgLTUyOCAtMjIgLTE1IC0xMDggLTc3IC0xOTEgLTEzNiAtMTc5IC0xMjYgLTM2NiAtMjc1IC01MjEgLTQxMiAtMTYzIC0xNDQgLTM3NSAtMzQ0IC0zOTggLTM3NSAtMTEgLTE1IC02MyAtNzQgLTExNSAtMTMxIC0xMjIzIC0xMzQyIC0xODE1IC0zMTUzIC0xNjI0IC00OTY4IDE1MyAtMTQ1OSA3OTYgLTI4MDkgMTgzNSAtMzg0OSA2NjUgLTY2NSAxNDI5IC0xMTU2IDIzMTUgLTE0ODYgNDA2IC0xNTEgODY1IC0yNjggMTMwNCAtMzMwIDM0MSAtNDggNTEwIC01OSA5MDAgLTU5IDM3NCAtMSA1MTkgOCA4MTAgNDUgODUgMTEgMTgyIDIzIDIxNSAyNSAzMyAzIDEyMSAxOSAxOTUgMzUgNzA3IDE2MCAxMDk3IDI5MyAxNjI1IDU1NCAzODYgMTkxIDY3MiAzNjYgMTAwMCA2MTIgMjYxIDE5NiAyODUgMjIzIDIzNyAyNzEgLTE3IDE3IC00MyAyMCAtMjMzIDI1IC0xNzQyIDUxIC0zMzg2IDgzOSAtNDU0NSAyMTc3IC0xMTg0IDEzNjggLTE3MTcgMzIwNiAtMTQ1MyA1MDEwIDIxOCAxNDk0IDk2OSAyODU0IDIxMjQgMzg0OSAxMTYgMTAwIDExNSA5OCAxMTUgMTMyIDAgNTIgLTIyIDU5IC0xODYgNTggLTgyIC0xIC0yMDcgLTYgLTI3OSAtMTB6IiAvPjwvZz48L3N2Zz4=' id="icon"/></button>
+            <button type="button" id="light" class="navigation__theme"><img class="navigation__svg" id="light" src='data:image/svg+xml;base64,PCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAyMDAxMDkwNC8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCJbXT48c3ZnIHZlcnNpb249IjEuMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTkiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAxMDQ5LjAwMDAwMCAxMjgwLjAwMDAwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCI+PG1ldGFkYXRhPkNyZWF0ZWQgYnkgcG90cmFjZSAxLjE1LCB3cml0dGVuIGJ5IFBldGVyIFNlbGluZ2VyIDIwMDEtMjAxNzwvbWV0YWRhdGE+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsMTI4MC4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiIGZpbGw9IiMwMDAwMDAiIHN0cm9rZT0ibm9uZSI+PHBhdGggZD0iTTYwMTUgMTI3ODkgYy03NDAgLTQ2IC0xNDY5IC0yMTkgLTIxNDUgLTUwOSAtMjg0IC0xMjEgLTgxNyAtNDA3IC05ODUgLTUyOCAtMjIgLTE1IC0xMDggLTc3IC0xOTEgLTEzNiAtMTc5IC0xMjYgLTM2NiAtMjc1IC01MjEgLTQxMiAtMTYzIC0xNDQgLTM3NSAtMzQ0IC0zOTggLTM3NSAtMTEgLTE1IC02MyAtNzQgLTExNSAtMTMxIC0xMjIzIC0xMzQyIC0xODE1IC0zMTUzIC0xNjI0IC00OTY4IDE1MyAtMTQ1OSA3OTYgLTI4MDkgMTgzNSAtMzg0OSA2NjUgLTY2NSAxNDI5IC0xMTU2IDIzMTUgLTE0ODYgNDA2IC0xNTEgODY1IC0yNjggMTMwNCAtMzMwIDM0MSAtNDggNTEwIC01OSA5MDAgLTU5IDM3NCAtMSA1MTkgOCA4MTAgNDUgODUgMTEgMTgyIDIzIDIxNSAyNSAzMyAzIDEyMSAxOSAxOTUgMzUgNzA3IDE2MCAxMDk3IDI5MyAxNjI1IDU1NCAzODYgMTkxIDY3MiAzNjYgMTAwMCA2MTIgMjYxIDE5NiAyODUgMjIzIDIzNyAyNzEgLTE3IDE3IC00MyAyMCAtMjMzIDI1IC0xNzQyIDUxIC0zMzg2IDgzOSAtNDU0NSAyMTc3IC0xMTg0IDEzNjggLTE3MTcgMzIwNiAtMTQ1MyA1MDEwIDIxOCAxNDk0IDk2OSAyODU0IDIxMjQgMzg0OSAxMTYgMTAwIDExNSA5OCAxMTUgMTMyIDAgNTIgLTIyIDU5IC0xODYgNTggLTgyIC0xIC0yMDcgLTYgLTI3OSAtMTB6IiAvPjwvZz48L3N2Zz4='/></button>
           </div>
         </div>
       </div>
@@ -80,7 +79,7 @@
           <div class="service__text">
             <div class="service__top">What we do for you</div>
             <div class="service__title">
-              Strategy. Design Content. <span class="service__yellow">Technology</span> Development</div>
+              Strategy. Design <br> Content. <div class="service__yellow">Technology</div> <br> Development</div>
             <div class="service__subtitle">There’s no secret sauce, no wizard behind the curtain. What makes Aerolab
               tick is an interdisciplinary team with a framework that fosters candid collaboration.</div>
             <div class="service__ref"> More know About us</div>
